@@ -1,60 +1,17 @@
-[
-    {
-        "type": 0,
-        "key": "name",
-        "value": "scratch-for-discord-bot"
-    },
-    {
-        "type": 0,
-        "key": [
-            "version"
-        ],
-        "value": "1.0.0"
-    },
-    {
-        "type": 0,
-        "key": [
-            "main"
-        ],
-        "value": "bot.js"
-    },
-    {
-        "type": 0,
-        "key": [
-            "scripts"
-        ],
-        "value": {
-            "type": 10,
-            "value": [
-                {
-                    "type": 0,
-                    "key": "start",
-                    "value": "node ."
-                }
-            ]
-        }
-    },
-    {
-        "type": 0,
-        "key": [
-            "dependencies"
-        ],
-        "value": {
-            "type": 10,
-            "value": [
-                {
-                    "type": 0,
-                    "key": "discord.js",
-                    "value": "^13.1.0"
-                },
-                {
-                    "type": 0,
-                    "key": [
-                        "easy-json-database"
-                    ],
-                    "value": "^1.5.0"
-                }
-            ]
-        }
-    }
-]
+
+	"name": "scratch-for-discord-bot",
+	"version": "1.0.0",
+	"main": "bot.js",
+	"scripts": {
+		"start": "node ."
+	},
+	"dependencies": {
+		"discord.js": "^13.1.0",
+		"easy-json-database": "^1.5.0"
+	}
+
+	{
+		"engines": {
+			"node": "16.13.0"
+		}
+	}
