@@ -8,6 +8,7 @@
   "main": "bot.js",
   "scripts": {
     "start": "node .",
+  
   },
   "dependencies": {
     "discord.js": "^13.1.0",
