@@ -21,7 +21,7 @@
                     partials: ["REACTION"]
                 });
 
-                await s4d.client.login('ODg4ODQ4MTEyMTIxMTg0MzQ4.YUYqTw.dAHOAWKpn1D-IshQFHtoOdzNugI').catch((e) => { s4d.tokenInvalid = false; s4d.tokenError = e; });
+                await s4d.client.login('token').catch((e) => { s4d.tokenInvalid = false; s4d.tokenError = e; });
 
 s4d.client.on('messageCreate', async (s4dmessage) => {
   if ((s4dmessage.content) == '/daiyverse') {
