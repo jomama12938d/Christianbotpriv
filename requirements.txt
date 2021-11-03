@@ -1,1 +1,1 @@
-pip install discord.js
+npm install --save my-dependency
