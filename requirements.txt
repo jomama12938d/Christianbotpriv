@@ -1,1 +1,1 @@
-npm install --save my-dependency
+npm install --discord.js
