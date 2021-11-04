@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "discord": "^0.8.2",
+    "discord.js": "^13.3.1",
+    "easy-json-database": "^1.5.0"
+  },
+  "name": "Biblebot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "node": "^16.13.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "thebaconater#8768",
+  "license": "ISC",
+  "description": "Jesus loves you he died for you",
+  "engines": {
+    "npm": ">=8.1.3",
+    "node": ">=16.13.0"
+  }
+}
